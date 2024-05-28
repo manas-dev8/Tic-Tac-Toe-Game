@@ -1,0 +1,45 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+}
+.bigbox{
+    display: inline-block;
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+.bigbox td{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+tr{
+    background-color: rgb(216, 216, 216);
+
+}
+td:hover{
+    background-color: rgb(198, 251, 255);
+}
+button{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: rgb(53, 43, 252);
+}
+button:hover{
+    background-color: rgb(106, 203, 255);
+    color: black;
+}
